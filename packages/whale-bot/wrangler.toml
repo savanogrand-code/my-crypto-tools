@@ -4,21 +4,14 @@ compatibility_date = "2025-01-01"
 
 [[kv_namespaces]]
 binding = "USERS"
-id = "placeholder-id"
-preview_id = "placeholder-preview-id"
+id = "7c135c1a61f046f192646ee564b56eea"
 
 [[kv_namespaces]]
 binding = "DEDUP"
-id = "placeholder-id-2"
-preview_id = "placeholder-preview-id-2"
+id = "09b9b553019545f3976a59d0e267a371"
 
 [vars]
-JUPITER_REFERRAL_ACCOUNT = "your-solana-referral-pubkey"
+JUPITER_REFERRAL_ACCOUNT = ""
 CURATED_WHALE_COUNT = "10"
-
-# Secrets (set via wrangler secret put):
-# HELIUS_API_KEY
-# HELIUS_WEBHOOK_AUTH
-# TELEGRAM_BOT_TOKEN
-# ADMIN_TELEGRAM_ID
-# PAYMENT_WALLET
+ADMIN_TELEGRAM_ID = ""
+PAYMENT_WALLET = "8bZ4a2w1Vj7m4k9x2P5n8b7c6V3x1M9p4L8k2F7eP9vL"
