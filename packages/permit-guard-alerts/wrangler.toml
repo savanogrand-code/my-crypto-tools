@@ -7,19 +7,14 @@ crons = ["*/10 * * * *"]  # Every 10 minutes
 
 [[kv_namespaces]]
 binding = "SUBSCRIBERS"
-id = "placeholder-id"
-preview_id = "placeholder-preview-id"
+id = "023c46a9d3a34ac1bc4f6776c1444d71"
 
 [[kv_namespaces]]
 binding = "LAST_CHECKED"
-id = "placeholder-id-2"
-preview_id = "placeholder-preview-id-2"
+id = "75c7f7e5226a4c35b1dbc13c38ffddb3"
 
 [vars]
 SUPPORTED_CHAINS = "1,8453,42161,10"
 CHECK_BLOCKS_BACK = "100"
-
-# Secrets (set via wrangler secret put):
-# ALCHEMY_API_KEY
-# TELEGRAM_BOT_TOKEN
-# PAYMENT_WALLET_ADDRESS
+PAYMENT_WALLET_ADDRESS = "0x2289c020101b0847b2c01ba6f296c0989a1c1d80"
+ALCHEMY_API_KEY = "demo"
