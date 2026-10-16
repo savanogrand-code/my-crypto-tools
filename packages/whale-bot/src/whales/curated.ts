@@ -2,6 +2,11 @@ import { WhaleInfo } from '../types';
 
 export const CURATED_WHALES: WhaleInfo[] = [
   {
+    address: '4MuKe3Mn7awN9yXncN8QCJJnWeF57jn87sytwNWdvTRp',
+    label: 'Alpha Whale (Active Webhook)',
+    category: 'whale',
+  },
+  {
     address: '9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM',
     label: 'Binance Cold / Market Maker',
     category: 'fund',
@@ -45,10 +50,5 @@ export const CURATED_WHALES: WhaleInfo[] = [
     address: '6yL2M8n4P7v1V8n4b3k7c6V1x9M7p2L6k9F5eP7vK8wA',
     label: 'Meteora Dynamic LP Whale',
     category: 'whale',
-  },
-  {
-    address: '1aB2C3d4E5f6G7h8I9j0K1L2M3N4P5Q6R7S8T9U0V1W2',
-    label: 'Top Alpha Fund Wallet',
-    category: 'fund',
   },
 ];
