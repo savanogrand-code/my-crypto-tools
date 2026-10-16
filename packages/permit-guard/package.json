@@ -9,6 +9,7 @@
     "typecheck": "tsc -b",
     "lint": "oxlint",
     "test": "vitest run",
+    "deploy": "wrangler pages deploy dist --project-name permit-guard --commit-dirty=true",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "tailwindcss": "^4.1.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
-    "vitest": "^5.0.4"
+    "vitest": "^5.0.4",
+    "wrangler": "^4.151.0"
   }
 }
