@@ -1,0 +1,25 @@
+name = "permit-guard-alerts"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[triggers]
+crons = ["*/10 * * * *"]  # Every 10 minutes
+
+[[kv_namespaces]]
+binding = "SUBSCRIBERS"
+id = "placeholder-id"
+preview_id = "placeholder-preview-id"
+
+[[kv_namespaces]]
+binding = "LAST_CHECKED"
+id = "placeholder-id-2"
+preview_id = "placeholder-preview-id-2"
+
+[vars]
+SUPPORTED_CHAINS = "1,8453,42161,10"
+CHECK_BLOCKS_BACK = "100"
+
+# Secrets (set via wrangler secret put):
+# ALCHEMY_API_KEY
+# TELEGRAM_BOT_TOKEN
+# PAYMENT_WALLET_ADDRESS

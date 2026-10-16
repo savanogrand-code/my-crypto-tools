@@ -1,0 +1,24 @@
+name = "whale-bot"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "USERS"
+id = "placeholder-id"
+preview_id = "placeholder-preview-id"
+
+[[kv_namespaces]]
+binding = "DEDUP"
+id = "placeholder-id-2"
+preview_id = "placeholder-preview-id-2"
+
+[vars]
+JUPITER_REFERRAL_ACCOUNT = "your-solana-referral-pubkey"
+CURATED_WHALE_COUNT = "10"
+
+# Secrets (set via wrangler secret put):
+# HELIUS_API_KEY
+# HELIUS_WEBHOOK_AUTH
+# TELEGRAM_BOT_TOKEN
+# ADMIN_TELEGRAM_ID
+# PAYMENT_WALLET

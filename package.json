@@ -1,0 +1,26 @@
+{
+  "name": "crypto-side-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PermitGuard (Web3 approval scanner) + Solana Whale Alert Bot",
+  "scripts": {
+    "dev:permit-guard": "pnpm --filter permit-guard dev",
+    "dev:alerts": "pnpm --filter permit-guard-alerts dev",
+    "dev:whale-bot": "pnpm --filter whale-bot dev",
+    "build": "pnpm -r build",
+    "build:permit-guard": "pnpm --filter permit-guard build",
+    "build:alerts": "pnpm --filter permit-guard-alerts build",
+    "build:whale-bot": "pnpm --filter whale-bot build",
+    "test": "pnpm -r test",
+    "test:permit-guard": "pnpm --filter permit-guard test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "deploy:permit-guard": "pnpm --filter permit-guard deploy",
+    "deploy:alerts": "pnpm --filter permit-guard-alerts deploy",
+    "deploy:whale-bot": "pnpm --filter whale-bot deploy"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
